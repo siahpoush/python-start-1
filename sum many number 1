@@ -1,0 +1,7 @@
+numericString = ' 76,876532,9.356,0,-234,-12,0.23,6,87586,987,142526353526353526,6454737364654,-0.375'
+sum = 0
+numericlist = numericString.split(',')
+print(numericlist)
+for num in numericlist:
+    sum += float(num)
+print(sum) 
